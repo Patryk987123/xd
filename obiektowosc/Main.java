@@ -1,4 +1,5 @@
- public static void Main(String[] args) {
+public class Main{
+public static void main(String[] args) {
    //zad1
         Kwadrat kwadrat = new Kwadrat(9);
    
@@ -9,3 +10,4 @@
    //zad4
 
     }
+}
