@@ -19,10 +19,10 @@ Bookshop bookshop = new Bookshop("a",2,bread);
 System.out.println(bakery.getInformation());
 System.out.println(bookshop.getInformation());
         //zad5
-        Calculator calc = new Calculator();
+        Calculator calculator = new Calculator();
 
-        System.out.println("2^3 = " + calc.calculate(2, 3));        
-        System.out.println("2 * 3 = " + calc.calculate(2, 3)); 
-        System.out.println("1 + 2 + 3 = " + calc.calculate(1, 2, 3));
+        System.out.println("2^2= " + calculator.calculate(2));        
+        System.out.println("2*3= " + calculator.calculate(2, 3)); 
+        System.out.println("1+2+3= " + calculator.calculate(1, 2, 3));
     }
 }
