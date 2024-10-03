@@ -1,0 +1,14 @@
+public class Kwadrat {
+    private int bok;
+
+    public Kwadrat(int bok) {
+        this.bok = bok;
+    }
+
+    public int obwod() {
+        return 4 * bok;
+    }
+
+    public int pole() {
+        return bok * bok;
+    }
