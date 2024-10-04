@@ -9,3 +9,4 @@ public double calculate(double a, double b) {
 public double calculate(double a, double b, double c) {
         return a + b + c;
     }
+}
