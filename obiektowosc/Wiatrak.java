@@ -4,25 +4,25 @@ public class Wiatrak {
     public final int fast=3;
     private int speed;
     private boolean on;
-    private int promien;
-    private String kolor;
+    private int radius;
+    private String color;
 
     public Wiatrak() {
         this.speed=slow;
         this.on=false;
-        this.promien=5;
-        this.kolor="Zielony";
+        this.radius=5;
+        this.color="Zielony";
     }
 
-    public Wiatrak(int speed, boolean on, int promien, String kolor) {
+    public Wiatrak(int speed, boolean on, int radius, String color) {
         this.speed=speed;
         this.on=on;
-        this.promien=promien;
-        this.kolor=kolor;
+        this.radius=radius;
+        this.color=color;
     }
 
     public String informacje() {
-        return "Predkosc: "+speed+" Stan:"+on+" Promien:"+promien+" Kolor:"+kolor;
+        return "Predkosc: "+speed+" Stan:"+on+" Promien:"+radius+" Kolor:"+color;
     }
     
 }
