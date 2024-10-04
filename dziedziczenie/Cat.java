@@ -4,6 +4,6 @@ public class Cat extends Animal{
     }
 
     public String makeSound(){
-        return "Sound:HauHau"+getinfo();
+        return "Sound:MiauMiau"+getinfo();
     }
 }
